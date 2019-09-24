@@ -1,0 +1,214 @@
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:website="http://ogp.me/ns/website" lang="en-US" class="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <base href="">
+  <meta charset="utf-8" />
+  <title>Promotion &mdash; Abundant Salon</title>
+  <script type="text/javascript"
+    src="//use.typekit.net/ik/KBVoVLrAQgU5IAJxZMCdsRhSbxhSpNOaeEiClHG-WEGfe0wffFHN4UJLFRbh52jhWD9a5AByFDg8wc9h5AFcFDjhwDMuwQy8js7sMPG0jA4udcsyd1sDjAUzdKoDSWmyScmDSeBRZPoRdhXCjA4udcsyd1sDjAUzdKoRdhXCjA4udcsyd1sDjAUzdKoDSWmyScmDSeBRZPoRdhXCdeNRjAUGdaFXOYiaikoyj1m0ZeB0iYFydeN0OcFzdPUaiaS0jA4udcsyd1sDjAUzdKoDSWmyScmDSeBRZPoRdhXKBAZcOAu8ieIlShmk-AjlihmKOWgkdkJsj14ydcszdKu1ScNXZWFUiA97fbKrHsMMeM96MKG4fOGGIMMjgkMfH6qJ1KSbMg6VJMJ7fbKn4UMMegI6MKG4fOUbIMIjMkMfH6qJl8MbMs6IJMJ7fbKr9gMgeM96MKG4fOybIMIjgkMfH6qJzmMbMs6FJMJ7fbKa9gMgeMt6MKG4fO8bIMIjIPMfqMYgztVKgb.js"></script>
+  <script type="text/javascript">
+    try {
+      Typekit.load();
+    } catch (e) { }
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round:400" />
+  <script
+    type="application/ld+json">{"url":"https://abundantsalon.com","name":"Abundant Salon","description":"","@context":"http://schema.org","@type":"WebSite"}</script>
+  <script
+    type="application/ld+json">{"legalName":"Abundant Salon","address":"171 Robertson Boulevard\nBeverly Hills, CA, 90211\nUnited States","email":"abundantsalon@gmail.com","telephone":"3104122356","sameAs":[],"@context":"http://schema.org","@type":"Organization"}</script>
+  <script
+    type="application/ld+json">{"address":"","name":"Abundant Salon","openingHours":", Tu 10:00-18:00, We 10:00-18:00, Th 10:00-18:00, Fr 10:00-18:00, Sa 09:00-17:00, ","@context":"http://schema.org","@type":"LocalBusiness"}</script>
+  <link rel="stylesheet" type="text/css"
+    href="//static1.squarespace.com/static/sitecss/579aa70e2e69cf76630518ea/10/515c7bd0e4b054dae3fcf003/579bb2ca725e25911c5e3797/2777-05142015/1568235535799/site.css?&filterFeatures=false" />
+
+  <script src="app.bundle.js"></script>
+
+  <script>
+    var apiUrl = 'https://dashboard.boulevard.io/api/2020-01/client';
+    var tokenizeUrl = 'https://vault.blvd.co/cards/tokenize';
+
+    // The following values are specific to your Boulevard account:
+    var clientToken = '';
+    var locationId = '';
+    var productId = '';
+
+    function onFormSubmit() {
+      var form = new PaymentForm('.payment-form');
+      var blvd = new Blvd(tokenizeUrl, apiUrl, clientToken);
+
+      form.setDisabled(true);
+
+      var cartInput = {
+        card: form.getCard(),
+        locationId: locationId,
+        productId: productId,
+        client: form.getClient()
+      };
+
+      blvd.purchaseProduct(cartInput).then(() => {
+        form.complete();
+      }).catch((error) => {
+        form.setDisabled(false);
+        form.setError(error);
+        console.log(error);
+      });
+
+      return false;
+    }
+
+    function toggleCardholderName() {
+      new PaymentForm('.payment-form').toggleCardholderIsClient();
+    }
+  </script>
+</head>
+
+<body id="collection-5d795ecf13fcc90c05ab4c75"
+  class="event-excerpts event-list-date event-list-time event-list-address event-icalgcal-links  events-layout-columns events-width-full gallery-design-slideshow aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-arrow-style-no-background gallery-show-arrows gallery-auto-crop   fixed-header transparent-header parallax-scrolling  first-index-image-fullscreen index-image-height-fullscreen   title--description-alignment-center title--description-position-over-image   description-button-style-solid description-button-corner-style-square  blog-layout-columns blog-width-full   show-category-navigation  product-list-titles-under product-list-alignment-center product-item-size-11-square product-image-auto-crop product-gallery-size-11-square product-gallery-auto-crop show-product-price show-product-item-nav product-social-sharing tweak-v1-related-products-image-aspect-ratio-11-square tweak-v1-related-products-details-alignment-center newsletter-style-dark  opentable-style-light small-button-style-outline small-button-shape-square medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-outline button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-type-page collection-layout-default collection-5d795ecf13fcc90c05ab4c75 mobile-style-available ">
+  <div id="mobileNav" data-content-field="navigation-mobileNav">
+    <nav class="main-nav">
+      <div class="nav-wrapper">
+        <ul class="cf">
+          <li class="external-link">
+            <a href="#book-now"><span>BOOK NOW</span></a>
+          </li>
+          <li class="index-collection folder">
+            <a href="/"><span>Home</span></a>
+          </li>
+          <li class="page-collection">
+            <a href="/about-1-1"><span>About</span></a>
+          </li>
+          <li class="page-collection">
+            <a href="/services"><span>Services</span></a>
+          </li>
+          <li class="page-collection">
+            <a href="/contact"><span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="site-wrapper">
+    <div class="site-inner-wrapper">
+      <header id="header" class="sqs-announcement-bar-dropzone">
+        <div class="sqs-cart-dropzone"></div>
+        <div class="title-nav-wrapper">
+          <h1 data-content-field="site-title" class="site-title">
+            <a href="/" id="top">
+              Abundant Salon
+            </a>
+          </h1>
+        </div>
+    </div>
+    </header>
+    <div class="title-desc-wrapper no-main-image no-description">
+      <div class="title-desc-inner" data-collection-id="5d795ecf13fcc90c05ab4c75" data-edit-main-image="Background">
+        <div class="page-title-wrapper">
+          <h1 class="page-title" data-content-field="title">Promotion</h1>
+        </div>
+        <br>
+        <div class="page-desc" data-content-field="description"></div>
+      </div>
+    </div>
+  </div>
+  <section id="content-wrapper">
+    <div class="content">
+      <div class="content-inner" data-content-field="main-content">
+        <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1568394971062"
+          id="page-5d795ecf13fcc90c05ab4c75">
+          <div class="row sqs-row">
+            <div class="col sqs-col-12 span-12">
+              <div class="sqs-block code-block sqs-block-code" data-block-type="23"
+                id="block-yui_3_17_2_1_1568235226207_5304">
+                <div class="sqs-block-content">
+                  <div class="payment-form">
+                    <form action="" onsubmit="return onFormSubmit();">
+                      <h1>Blowout Promotion</h1>
+                      <p>Purchase one blowout service for $75, and receive a second for free!</p>
+                      <fieldset id="payment-form-fields">
+                        <div class="row">
+                          <div class="col sqs-col-6 span-6">
+                            <label for="first-name">First name</label>
+                            <input id="first-name" type="text" required>
+                          </div>
+                          <div class="col sqs-col-6 span-6">
+                            <label for="last-name">Last name</label>
+                            <input id="last-name" type="text" required>
+                          </div>
+                        </div>
+                        <label for="last-name">Email</label>
+                        <input id="email" type="email" required>
+                        <label for="card-name">Cardholder Name</label>
+                        <input id="name-copy" type="checkbox" value="yes" onclick="toggleCardholderName()" checked>Same
+                        as above
+                        <br>
+                        <input id="card-name" style="display: none" type="text" disabled="disabled" required>
+                        <label for="name-chk"></label>
+                        <br />
+                        <div class="row">
+                          <div class="col sqs-col-8 span-8">
+                            <label for="card-number">Card Number</label>
+                            <input id="card-number" maxlength="19" minlength="13" pattern="[0-9]*" type="text" required>
+                          </div>
+                          <div class="col sqs-col-2 span-2">
+                            <label for="expiration">Expiration Date</label>
+                            <input id="expiration" maxlength="4" minlength="4" pattern="[0-9]*" placeholder="MMYY"
+                              type="text" required>
+                          </div>
+                          <div class="col sqs-col-2 span-2">
+                            <label for="security" id="sec-label">Security Code</label>
+                            <input id="security" maxlength="4" minlength="2" pattern="[0-9]*" placeholder="1234"
+                              type="text" required>
+                          </div>
+                        </div>
+                        <button type="submit">Purchase ($75)</button>
+                        <p id="error-message" style="width: 100%; color: red;"></p>
+                      </fieldset>
+                      <p style="width: 100%; text-align: center;">Your card will be charged immediately and you will
+                        receive an email confirmation for your purchase.</p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-5d795ecf13fcc90c05ab4c76">
+                <div class="sqs-block-content">
+                  <p class="" style="white-space:pre-wrap;">&nbsp;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER WITH OPEN BLOCK FIELD-->
+  <footer id="footer">
+    <div class="back-to-top-link"><a href="#top"><span class="arrow"></span>Top</a></div>
+    <div class="footer-wrapper">
+      <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field"
+        data-updated-on="1508360733426" id="footerBlocks">
+        <div class="row sqs-row">
+          <div class="col sqs-col-12 span-12">
+            <div class="sqs-block html-block sqs-block-html" data-block-type="2"
+              id="block-yui_3_17_2_4_1508357307132_10737">
+              <div class="sqs-block-content">
+                <p class="text-align-center">Copyright 2019 Abundant Salon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  </div>
+</body>
+
+</html>

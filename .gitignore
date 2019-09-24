@@ -1,0 +1,36 @@
+# Generate on crash by the VM
+erl_crash.dump
+
+# Static artifacts
+/node_modules
+/bower_components
+/tmp
+/dist
+
+# Log Files
+erl_crash.dump
+*.log
+
+# OS X specific files
+.DS_Store
+
+# Edited Files
+\#*#
+*~
+
+# Secret Mix Config
+*.secret.exs
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage statistics
+/cover
+
+# IDE #
+.vscode/*
+
+# Config
+config.txt
